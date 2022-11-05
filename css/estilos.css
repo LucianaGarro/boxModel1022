@@ -1,0 +1,71 @@
+/* sintaxis: selector (etiqueta, class, id), propiedad(varias),valor(pueden ser de varios tipos) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 80px;
+}
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:aliceblue;
+    padding: 10px;
+}
+
+h1{
+    color:black;
+    padding: 40px;
+    text-align: center;
+    border: 20px solid black;
+    margin: 80px 40px 80px 40px;
+}
+
+p{
+    color:crimson;
+    padding: 40px;
+    border: 10px solid blueviolet;
+    margin-right: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.radius{
+    border-radius: 50px;
+}
+
+img{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    border:10px double blue;
+    border-radius: 1cm;
+
+
+}
+
+footer{
+    padding:30px;
+    background-color: blueviolet;
+}
+
+.icono{
+    border: none;
+    margin-left: 100px;
+}
+.iconito{
+    border:none;
+    margin-left:100px;
+}
